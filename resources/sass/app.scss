@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.title
+{
+  font-weight: bold;
+}
+
+.title-main
+{
+  margin-top: 10px;
+  display: block;
+  font-size: 17px;
+}
