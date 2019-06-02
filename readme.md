@@ -7,3 +7,5 @@ Nástroj, který zanalyzuje zvolenou webovou stránku
 - Zda má stránka povolené indexování pro roboty (všechny formy - meta tag, robots.txt a X-Robots-Tag)
 - Zda všechny obrázky mají vyplněný alt tag
 - Výstup analýzy z Google Insights (lze získat z jejich API - https://developers.google.com/speed/docs/insights/v5/get-started)
+
+### Demo: http://web-analyzer.wegrap.cz
