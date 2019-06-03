@@ -96,7 +96,7 @@ class Analyzer extends Model
         $images = $dom->getElementsByTagName("img");
         foreach($images as $image)
         {
-            if(!$image->hasAttribute("alt"))
+            if(!$image->hasAttribute('alt') || empty($image->getAttribute('alt')))
             {
                 $this->result['typed_alttag'] = false;
                 break;
