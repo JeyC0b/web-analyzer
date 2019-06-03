@@ -1,0 +1,54 @@
+{
+  "name": "vipnytt/useragentparser",
+  "description": "User-Agent parser for robot rule sets",
+  "type": "library",
+  "keywords": [
+    "UserAgent",
+    "User-Agent",
+    "robots.txt",
+    "X-Robots-tag",
+    "Robots meta tag",
+    "Robots Exclusion Protocol",
+    "REP",
+    "Robot",
+    "Spider",
+    "Crawler"
+  ],
+  "homepage": "https://github.com/VIPnytt/UserAgentParser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "VIP nytt AS",
+      "email": "support@vipnytt.no",
+      "role": "Owner"
+    },
+    {
+      "name": "Jan-Petter Gundersen",
+      "email": "jpg@vipnytt.no",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5"
+  },
+  "support": {
+    "email": "support@vipnytt.no",
+    "issues": "https://github.com/VIPnytt/UserAgentParser/issues",
+    "wiki": "https://github.com/VIPnytt/UserAgentParser/wiki",
+    "source": "https://github.com/VIPnytt/UserAgentParser",
+    "docs": "https://github.com/VIPnytt/UserAgentParser/wiki"
+  },
+  "autoload": {
+    "psr-4": {
+      "vipnytt\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "vipnytt\\UserAgentParser\\Tests\\": "tests/"
+    }
+  }
+}
