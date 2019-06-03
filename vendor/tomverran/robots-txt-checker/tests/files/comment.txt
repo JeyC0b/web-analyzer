@@ -1,3 +1,0 @@
-User-Agent: *
-Disallow: /comment #comment
-Disallow: /test
