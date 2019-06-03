@@ -9,3 +9,4 @@ Nástroj, který zanalyzuje zvolenou webovou stránku
 - Výstup analýzy z Google Insights (lze získat z jejich API - https://developers.google.com/speed/docs/insights/v5/get-started)
 
 ### Demo: http://web-analyzer.wegrap.cz
+
